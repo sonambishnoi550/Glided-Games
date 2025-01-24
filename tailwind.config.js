@@ -13,12 +13,12 @@ module.exports = {
                     md: "768px",
                     lg: "1024px",
                     xl: "1140px",
-                    "2xl": "1320px",
+                    "2xl": "1360px",
                 },
             },
             colors: {
-                "light-gray": '#b3b2b6',
-                "dark-black": "#01000B",
+                "purple": '#815ccb',
+                "sky": "#1BABFE",
 
             },
             fontSize: {
