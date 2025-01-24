@@ -22,12 +22,14 @@ module.exports = {
 
             },
             fontSize: {
-                "custom-3xl": '32px',
-                "custom-4xl": '34px',
+                "custom-xl": '22px',
+                "custom-4xl": '40px',
             },
             lineHeight: {
-                'custom-sm': '120%',
-                'custom-xl': '150%',
+                'custom-xl': '127%',
+                'custom-2xl': '156%',
+                'custom-3xl': '164%',
+                'custom-4xl': '179%',
 
             },
            
