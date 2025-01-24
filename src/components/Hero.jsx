@@ -35,7 +35,7 @@ const Hero = () => {
     }, []);
     return (
         <section
-            className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit lg:pb-[129px] md:pb-20 pb-16"
+            className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
             style={{ backgroundImage: `url(${herobg})` }}
         >
             <Header />

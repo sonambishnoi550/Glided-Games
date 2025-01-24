@@ -7,17 +7,6 @@ body{
 .ff-poppins{
   font-family: 'Poppins',sans-serif;
 }
-.hero-bg {
-  background-image: url("../assets/images/png/hero-bg.png");
-}
-
-.container {
-  max-width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .button-gradient {
   background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
