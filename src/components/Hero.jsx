@@ -34,8 +34,7 @@ const Hero = () => {
         return () => clearInterval(interval);
     }, []);
     return (
-        <section
-            className="relative bg-cover bg-center xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
+        <div className="relative bg-cover bg-center xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
             style={{ backgroundImage: `url(${herobg})` }} >
             <Header />
             <div className="container">
@@ -59,7 +58,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
