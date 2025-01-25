@@ -3,6 +3,9 @@ import './App.css'
 import Earn from './components/Earn'
 import Gaming from './components/Gaming'
 import Hero from './components/Hero'
+import Powered from './components/Powered'
+import Token from './components/Token'
+import Uniswap from './components/Uniswap'
 import Utility from './components/Utility'
 
 
@@ -14,7 +17,10 @@ function App() {
       <Hero />
       <Utility />
      <Earn/>
-      <Gaming/>
+      <Gaming />
+      <Token />
+      <Uniswap/>
+      <Powered/>
     </>
   )
 }
