@@ -4,3 +4,4 @@ export const NAV_DATA = [
     { title: 'Staking $GILD', id: '#games' },
     { title: '$GILD Nodes', id: '#token' },
 ];
+
