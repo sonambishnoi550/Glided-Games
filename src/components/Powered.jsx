@@ -6,7 +6,7 @@ import coin from "../assets/images/png/coin.png";
 
 const Powered = () => {
     const poweredByImages = [
-        { src: engine, alt: "engine", maxWidth: "264px", padding: "md:py-[67px] py-10 px-[19px] max-lg:px-6" },
+        { src: engine, alt: "engine", maxWidth: "264px", padding: "md:py-[67px] py-[42px] px-[19px] max-lg:px-6" },
         { src: uniswap, alt: "uniswap", maxWidth: "273px", padding: "md:py-[59px] py-8 px-[20px]" },
         { src: coin, alt: "coin", maxWidth: "247px", padding: "md:py-[74px] py-12 px-[33px]" },
         { src: polygon, alt: "polygon", maxWidth: "261.4px", padding: "md:py-[63px] py-9 px-[25px]" }
