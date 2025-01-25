@@ -44,7 +44,7 @@ const Token = () => {
         >
             <div className="container">
                 <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center lg:pb-[59px] md:pb-10 pb-6">
-                    <span className="bg-gradient-to-tl from-purple to-sky bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-tl from-sky to-purple bg-clip-text text-transparent">
                         $GILD
                     </span>{" "}
                     Token Info

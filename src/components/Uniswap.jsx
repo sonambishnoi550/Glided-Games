@@ -24,7 +24,7 @@ const Uniswap = () => {
             <div className="container">
                 <div className="md:flex justify-between max-w-[1133px] mx-auto">
                     <div>
-                        <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center pb-[59px]">
+                        <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center pb-[21px]">
                             Buy On <span className="text-sky">Uniswap</span> </h2>
                         <ul className="space-y-2">
                             {uniswap_data.map((data, i) => (

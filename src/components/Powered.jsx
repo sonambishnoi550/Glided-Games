@@ -17,7 +17,7 @@ const Powered = () => {
         <div className='-mt-1 xl:pt-[130px] lg:py-20 md:py-16 py-12 xl:pb-[136px] bg-black'>
             <div className="container">
                 <h2 className='font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center xl:pb-[68px] md:pb-12 pb-6'>
-                    <span className='bg-gradient-to-tl from-purple to-sky bg-clip-text text-transparent'>Powered</span> By:
+                    <span className='bg-gradient-to-tl from-sky to-purple bg-clip-text text-transparent'>Powered</span> By:
                 </h2>
                 <div className='flex max-xl:flex-wrap gap-6 max-xl:justify-center'>
                     {poweredByImages.map((image, index) => (
