@@ -35,12 +35,12 @@ const Hero = () => {
     }, []);
     return (
         <section
-            className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
+            className="relative bg-cover bg-center xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
             style={{ backgroundImage: `url(${herobg})` }} >
             <Header />
             <div className="container">
                 <div className="relative z-10">
-                    <h1 className="text-4xl lg:text-7xl font-normal text-white text-center ff-poppins leading-tight xl:pt-[300px] lg:pt-[150px] pt-16 max-w-[1020px] mx-auto">
+                    <h1 className="text-4xl lg:text-7xl font-normal text-white text-center ff-poppins leading-tight xl:pt-[250px] lg:pt-[150px] pt-16 max-w-[1020px] mx-auto">
                         There are games... And then there are <span className="text-sky">Gilded </span>Games
                     </h1>
                     <p className="text-white text-center text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl pt-5">
