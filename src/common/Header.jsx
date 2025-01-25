@@ -69,7 +69,7 @@ const Header = () => {
                                         className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-lg text-white"
                                         href={obj.id} > {obj.title}
                                     </a>))}
-                                <a
+                                <a 
                                     href="#discord"
                                     className="flex items-center gap-2 px-7 py-[14px] text-white text-sm button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
                                 >
