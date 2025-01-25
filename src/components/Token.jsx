@@ -38,32 +38,20 @@ const tokenInfo = [
 
 const Token = () => {
     return (
-        <div
-            className="bg-cover bg-no-repeat bg-center -mt-1 xl:pt-[130px] lg:py-20 md:py-16 py-12 xl:pb-[136px]"
-            style={{ backgroundImage: `url(${tokenbg})` }}
-        >
+        <div id='token' className="bg-cover bg-no-repeat bg-center -mt-1 xl:pt-[130px] lg:py-20 md:py-16 py-12 xl:pb-[136px]"
+            style={{ backgroundImage: `url(${tokenbg})` }}>
             <div className="container">
                 <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center lg:pb-[59px] md:pb-10 pb-6">
                     <span className="bg-gradient-to-tl from-sky to-purple bg-clip-text text-transparent">
-                        $GILD
-                    </span>{" "}
-                    Token Info
-                </h2>
+                        $GILD </span> Token Info </h2>
                 <div className="flex max-xl:flex-wrap gap-6 max-xl:justify-center">
                     {tokenInfo.map(({ id, image, title, description, extraClass }) => (
-                        <div
-                            key={id}
-                            className={`border rounded-[13px] cursor-pointer border-white shadow-gradient transition-all duration-700 ${extraClass}`}
-                        >
+                        <div key={id}
+                            className={`border rounded-[13px] cursor-pointer shadow-gradient token-card transition-all duration-700 ${extraClass}`} >
                             <img className="flex mx-auto" src={image} alt={title} />
-                            <h4 className="font-bold text-3xl leading-custom-xl text-center text-white pt-[9px]">
-                                {title}
-                            </h4>
-                            {description && (
-                                <p className="font-normal text-lg leading-custom-xl text-center text-white whitespace-nowrap">
-                                    {description}
-                                </p>
-                            )}
+                            <h4 className="font-bold text-3xl leading-custom-xl text-center text-white pt-[9px]"> {title} </h4>
+                            {description && ( <p className="font-normal text-lg leading-custom-xl text-center text-white whitespace-nowrap">
+                                    {description} </p> )}
                         </div>
                     ))}
                 </div>

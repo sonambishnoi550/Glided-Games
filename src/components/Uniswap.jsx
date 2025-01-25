@@ -31,16 +31,13 @@ const Uniswap = () => {
                                 <React.Fragment key={i}>
                                     {data.items.map((item, j) => (
                                         <li key={j} className="text-xl pb-[11px] font-normal text-white max-sm:text-center">
-                                            • {item}
-                                        </li>
+                                            • {item}</li>
                                     ))}
                                 </React.Fragment>
                             ))}
                         </ul>       
-                        <a
-                            href="#discord" className="flex items-center max-sm:mx-auto text-2xl gap-[10px] mt-[30px] px-[10.9px] py-[14px] text-white w-[170px] button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
-                        >
-                            <img src={uniswap} alt="buy now Icon" className="w-6 h-6" loading="lazy" /> Buy Now</a>
+                        <a href="#discord" className="flex items-center max-sm:mx-auto text-2xl gap-[10px] mt-[30px] px-[10.9px] py-[14px] text-white w-[170px] button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
+                        > <img src={uniswap} alt="buy now Icon" className="w-6 h-6" loading="lazy" /> Buy Now</a>
                     </div>
                     <img className='max-w-[341px] max-sm:mt-10' src={uniswapBox} alt="box" />
                 </div>
