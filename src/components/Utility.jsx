@@ -18,5 +18,4 @@ const Utility = () => {
     </div>
   )
 }
-
 export default Utility

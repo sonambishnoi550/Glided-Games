@@ -36,40 +36,26 @@ const Hero = () => {
     return (
         <section
             className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit xl:pb-[129px] lg:pb-[92px] md:pb-20 pb-16"
-            style={{ backgroundImage: `url(${herobg})` }}
-        >
+            style={{ backgroundImage: `url(${herobg})` }} >
             <Header />
             <div className="container">
                 <div className="relative z-10">
                     <h1 className="text-4xl lg:text-7xl font-normal text-white text-center ff-poppins leading-tight xl:pt-[300px] lg:pt-[150px] pt-16 max-w-[1020px] mx-auto">
-                        There are games... And then
-                        there are <span className="text-[#1BABFE]">Gilded </span>Games
+                        There are games... And then there are <span className="text-sky">Gilded </span>Games
                     </h1>
                     <p className="text-white text-center text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl pt-5">
                         {`${timeLeft.days}d : ${timeLeft.hours}hr : ${timeLeft.minutes}min : ${timeLeft.seconds}sec`}
                     </p>
                     <p className="font-normal md:text-lg text-base flex justify-center text-white">
-                        Remaining Presale Time
-                    </p>
+                        Remaining Presale Time </p>
                     <div className="pt-[22px] flex flex-row gap-4 justify-center sm:space-x-4">
-                        <a
-                            href="#discord"
+                        <a href="#discord"
                             className="inline-flex items-center md:text-custom-xl text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white button-gradient rounded-[79px] hover:scale-110 transition-all duration-300"
                         >
-                            <img
-                                src={presaleIcon}
-                                alt="Presale Icon"
-                                className="w-6 h-6"
-                                loading="lazy"
-                            />
-                            Presale
-                        </a>
-                        <a
-                            href="#discord"
+                            <img src={presaleIcon} alt="Presale Icon" className="w-6 h-6" loading="lazy"/> Presale </a>
+                        <a href="#discord"
                             className="inline-flex items-center md:text-custom-xl text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white border border-white rounded-[79px] hover:scale-110 transition-all duration-300"
-                        >
-                            Join Now
-                        </a>
+                        >  Join Now </a>
                     </div>
                 </div>
             </div>
