@@ -19,6 +19,9 @@ module.exports = {
             colors: {
                 "purple": '#815ccb',
                 "sky": "#1BABFE",
+                "darkGray": '#040404',
+                "gray": '#262626',
+               " lightSky": '#1BABFE'
 
             },
             fontSize: {

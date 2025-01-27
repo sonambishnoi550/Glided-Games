@@ -5,38 +5,34 @@ import sale from "../assets/images/svg/sale.svg"
 import nft from "../assets/images/svg/nft.svg"
 import holder from "../assets/images/svg/holder.svg"
 
-const tokenInfo = [
-    {
-        id: 1,
-        image: billion,
-        title: '3 Billion',
-        description: 'GILD Token Info',
-        extraClass: 'pt-6 pb-[17px] xl:px-[89px] lg:px-20 px-[89px]',
-    },
-    {
-        id: 2,
-        image: sale,
-        title: 'Pre Sale Token',
-        description: '',
-        extraClass: 'pt-[30px] pb-[17px] border px-[50px] rounded-[13px]',
-    },
-    {
-        id: 3,
-        image: holder,
-        title: '100,000+',
-        description: 'Holders',
-        extraClass: 'pt-6 pb-[17px] pl-[95px] pr-[89px]',
-    },
-    {
-        id: 4,
-        image: nft,
-        title: '2,500+',
-        description: 'NFT Sold',
-        extraClass: 'pt-6 pb-[17px] pl-[112px] pr-[106px]',
-    }
-];
 
 const Token = () => {
+    const TOKEN_INFO_LIST = [
+        {
+            image: billion,
+            imageAlt: "token",
+            title: "3 Billion",
+            description: "GILD Token Info"
+        },
+        {
+            image: sale,
+            imageAlt: "sale-token",
+            title: "Pre Sale Token",
+            description: ""
+        },
+        {
+            image: holder,
+            imageAlt: "holders",
+            title: "100,000+",
+            description: "Holders"
+        },
+        {
+            image: nft,
+            imageAlt: "nft",
+            title: "2,500+",
+            description: "NFT Sold"
+        },
+    ]
     return (
         <div id='token' className="bg-cover bg-no-repeat bg-center -mt-1 xl:pt-[130px] lg:py-20 md:py-16 py-12 xl:pb-[136px]"
             style={{ backgroundImage: `url(${tokenbg})` }}>
@@ -44,16 +40,18 @@ const Token = () => {
                 <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center lg:pb-[59px] md:pb-10 pb-6">
                     <span className="bg-gradient-to-tl from-sky to-purple bg-clip-text text-transparent">
                         $GILD </span> Token Info </h2>
-                <div className="flex max-xl:flex-wrap gap-6 max-xl:justify-center">
-                    {tokenInfo.map(({ id, image, title, description, extraClass }) => (
-                        <div key={id}
-                            className={`border rounded-[13px] cursor-pointer shadow-gradient token-card transition-all duration-700 ${extraClass}`} >
-                            <img className="flex mx-auto" src={image} alt={title} />
-                            <h4 className="font-bold text-3xl leading-custom-xl text-center text-white pt-[9px]"> {title} </h4>
-                            {description && ( <p className="font-normal text-lg leading-custom-xl text-center text-white whitespace-nowrap">
-                                    {description} </p> )}
+                <div className='flex items-center flex-wrap -mx-3 justify-center'>
+                    {TOKEN_INFO_LIST.map(function (item, i) {
+                        return <div key={i} className='w-1/4 max-md:w-1/3 max-sm:w-1/2 px-3 max-sm:px-2 max-md:pt-6 max-sm:pt-4'>
+                            <div className='bg-gradient-to-b h-full from-white/20 to-white/10 p-[1px] rounded-[13px]'>
+                                <div className='bg-gradient-to-b from-gray to-darkGray h-[181px] max-sm:h-36 hover:bg-gradient-to-br cursor-pointer hover:from-purple hover:to-sky max-h-[181px] flex items-center justify-center flex-col py-[18px] rounded-[13px] shadow'>
+                                    <img src={item.image} alt={item.imageAlt} className='h-[70px] max-lg:h-12 max-sm:h-10 pointer-events-none' />
+                                    <p className='font-bold text-3xl max-lg:text-2xl max-sm:text-xl leading-[38.25px] text-white pt-[10px] pb-1 max-lg:pb-0 text-center'>{item.title}</p>
+                                    <p className='text-lg max-lg:text-base max-sm:text-sm max-sm:leading-2 leading-[23px] text-white'>{item.description}</p>
+                                </div>
+                            </div>
                         </div>
-                    ))}
+                    })}
                 </div>
             </div>
         </div>
