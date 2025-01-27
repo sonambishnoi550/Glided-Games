@@ -1,34 +1,10 @@
 import React from 'react';
-import engine from "../assets/images/png/engine.png";
-import uniswap from "../assets/images/png/uniswap.png";
-import polygon from "../assets/images/png/polygon.png";
-import coin from "../assets/images/png/coin.png";
+import { POWERED_LIST } from '../utils/helper';
 
 const Powered = () => {
-    const POWERED_LIST = [
-        {
-            image: engine,
-            imageAlt: "engine",
-            sizeClass: "h-20 max-lg:h-14"
-        },
-        {
-            image: uniswap,
-            imageAlt: "uniswap",
-            sizeClass: "h-24 max-lg:h-16"
-        },
-        {
-            image: coin,
-            imageAlt: "coin-gecko",
-            sizeClass: "h-[65px] max-lg:h-12"
-        },
-        {
-            image: polygon,
-            imageAlt: "polygon",
-        },
-    ];
 
     return (
-        <div className='-mt-1 xl:pt-[130px] lg:py-20 md:py-16 py-12 xl:pb-[136px] bg-black'>
+        <div className='-mt-1 xl:pt-[130px] lg:py-20 md:pb-16 md:pt-2 py-12 xl:pb-[136px] bg-black'>
             <div className="container">
                 <h2 className='font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center xl:pb-[68px] md:pb-12 pb-6'>
                     <span className='bg-gradient-to-tl from-sky to-purple bg-clip-text text-transparent'>Powered</span> By:

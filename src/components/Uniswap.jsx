@@ -2,13 +2,11 @@ import React from 'react';
 import uniswapbg from "../assets/images/png/uniswap-bg.png";
 import uniswap from "../assets/images/svg/button-uniswap.svg"
 import uniswapBox from "../assets/images/png/uniswap-box.png"
+import { UNISWAP_LIST } from '../utils/helper';
 const Uniswap = () => {
- const UNISWAP_LIST = [
-        "100,000+ Airdrop", "NFT $GILD giveaway", "Announcement and Games"
-    ]
 
     return (
-        <div className="-mt-1 bg-center bg-cover bg-no-repeat xl:pt-[220px] lg:pt-[150px] md:py-20 max-sm:pb-2 py-12 xl:pb-[150px] lg:pb-[100px]"
+        <div className="-mt-1 bg-center bg-cover bg-no-repeat xl:pt-[220px] lg:pt-[150px] md:pb-20 max-sm:pb-2 pt-7 xl:pb-[150px] lg:pb-[100px] 2xl:max-w-[1920px] 2xl:mx-auto"
             style={{ backgroundImage: `url(${uniswapbg})` }} >
             <div className="container">
                 <div className="md:flex justify-between max-w-[1133px] mx-auto">

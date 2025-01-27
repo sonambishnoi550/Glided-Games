@@ -66,10 +66,10 @@ const Header = () => {
                             <div className='flex-col flex gap-6 items-center'>
                                 {NAV_DATA.map((obj, index) => (
                                     <a onClick={toggleMenu} key={index}
-                                        className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-lg text-white"
+                                        className="font-normal hover:text-blue-500 transition-all duration-500 text-xl leading-custom-lg text-white"
                                         href={obj.id}> {obj.title} </a>))}
                                 <a 
-                                    href="#discord" className="flex items-center gap-2 px-7 py-[14px] text-white text-sm button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
+                                    href="#discord" className="flex items-center gap-2 px-7 py-[14px] text-white text-base button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
                                 >
                                     <img src={discordIcon} alt="Discord Icon" className="w-6 h-6"/> Discord
                                 </a>
