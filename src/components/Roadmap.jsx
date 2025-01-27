@@ -20,28 +20,28 @@ const Roadmap = () => {
                         <h3 className="lg:text-lg text-base font-semibold">Phase 1</h3>
                         <p className="lg:text-4xl text-2xl font-medium text-white md:mb-4 mb-2">Q1 2022</p>
                         <ul className="space-y-2">
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Whitelist/Presale Created</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Private Sale</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Public Sale</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Prime Eternal Owner Perks</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Whitelist/Presale Created</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Private Sale</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Public Sale</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Prime Eternal Owner Perks</li>
                         </ul>
                     </div>
                     <div className="flex-1 relative z-10 xl:pt-[58px] lg:pt-[18px] md:pt-[58px] pt-[18px] 2xl:ml-32  md:-ml-7 px-4 max-sm:pl-20">
                         <h3 className="lg:text-lg text-base font-semibold">Phase 2</h3>
                         <p className="lg:text-4xl text-2xl font-medium text-white md:mb-4 mb-2">Q2 2022</p>
                         <ul className="space-y-2">
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Token & Staking Release</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Staking Gameplay</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Token & Staking Release</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Staking Gameplay</li>
                         </ul>
                     </div>
                     <div className="flex-1 relative z-10 xl:pt-[58px] lg:pt-[18px] md:pt-[58px] pt-[18px] 2xl:pl-20 md:ml-[-20px] px-4 max-sm:pl-20">
                         <h3 className="lg:text-lg text-base font-semibold">Phase 3</h3>
                         <p className="lg:text-4xl text-2xl font-medium text-white md:mb-4 mb-2">Q3 2022</p>
                         <ul className="md:space-y-3 space-y-1">
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• MVP Gameplay Release</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Battle Modes Release</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Land Gameplay Release</li>
-                            <li className="lg:text-lg text-base text-white/70 ff-montserrat">• Gear Forging Release</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• MVP Gameplay Release</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Battle Modes Release</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Land Gameplay Release</li>
+                            <li className="lg:text-lg text-sm text-white/70 ff-montserrat">• Gear Forging Release</li>
                         </ul>
                     </div>
                 </div>
