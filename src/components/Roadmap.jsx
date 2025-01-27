@@ -4,7 +4,7 @@ import roadmapVerticalLine from "../assets/images/png/roadmap-vertical-line.png"
 
 const Roadmap = () => {
     return (
-        <div className="bg-black text-white pt-[92px] pb-[75px] -mt-1">
+        <div className="bg-black text-white md:pt-[92px] pt-4 pb-[75px] -mt-1">
             <div className="relative">
                 <img src={roadmapLine} alt="roadmap-line"
                     className="absolute hidden sm:block overflow-hidden transform xl:translate-y-[20%] lg:translate-y-[40%] md:translate-y-[80%] sm:translate-y-[30%] max-w-[1640px] right-0  w-full h-auto" />

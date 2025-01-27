@@ -2,7 +2,7 @@ import React from 'react';
 import engine from "../assets/images/png/engine.png";
 import uniswap from "../assets/images/png/uniswap.png";
 import polygon from "../assets/images/png/polygon.png";
-import coin from "../assets/images/png/coin.png"; // Assuming this is the correct image for the gecko image
+import coin from "../assets/images/png/coin.png";
 
 const Powered = () => {
     const POWERED_LIST = [
@@ -17,14 +17,13 @@ const Powered = () => {
             sizeClass: "h-24 max-lg:h-16"
         },
         {
-            image: coin, // Fixed 'gecko' to 'coin' if that's the correct image name
+            image: coin,
             imageAlt: "coin-gecko",
             sizeClass: "h-[65px] max-lg:h-12"
         },
         {
             image: polygon,
             imageAlt: "polygon",
-            sizeClass: "h-11 max-lg:h-9"
         },
     ];
 
@@ -38,7 +37,7 @@ const Powered = () => {
                     {POWERED_LIST.map((item, i) => (
                         <div key={i} className='w-1/4 max-xl:w-1/3 max-md:!w-1/2 max-sm:!w-full px-[10.5px] max-2xl:pt-[21px] max-sm:pt-4'>
                             <div className='bg-gradient-to-r h-full from-white/20 to-white/10 p-[1px] rounded-[13px]'>
-                                <div className='bg-gradient-to-r px-5 from-gray to-darkGray h-[181px] max-sm:h-36 hover:bg-gradient-to-br cursor-pointer hover:from-purple hover:to-sky max-h-[181px] flex items-center justify-center py-[18px] rounded-[13px]  shadow'>
+                                <div className='bg-gradient-to-r px-5 from-gray to-darkGray h-[181px] max-sm:h-36 hover:bg-gradient-to-br cursor-pointer hover:from-purple hover:to-sky  flex items-center justify-center py-[18px] rounded-[13px] shadow'>
                                     <img
                                         src={item.image}
                                         alt={item.imageAlt}
